@@ -368,7 +368,7 @@ public class GenericTest {
   >
   - 고로 **구체적으로 하나의 클래스로 결정하지 못한다는 것**이고 이로 인해 쓰기 연산을 제한하는 것이다.
 
-![Untitled](%E1%84%8C%E1%85%A6%E1%84%82%E1%85%A6%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20(Generic)%20bef44b6c45414b6cb2cb5451f7ba9f47/Untitled.png)
+![Untitled](https://private-user-images.githubusercontent.com/84346055/301349261-6b11f6aa-b96b-4aa3-9834-879ec23b34c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NDkwMDQsIm5iZiI6MTcwNjc0ODcwNCwicGF0aCI6Ii84NDM0NjA1NS8zMDEzNDkyNjEtNmIxMWY2YWEtYjk2Yi00YWEzLTk4MzQtODc5ZWMyM2IzNGM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjAxVDAwNTE0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY0NThiYWU0YTRlNGQxMDliZTE4YTM3ODliN2JlNTZkNGU3MmYxNDk0Y2RhOTViZTkwNWEwMDdhNjFhYjE2YTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9OHXFIv2i7F5PueZB8vUh5vjPbaTemM2kjzVu-7Dewg)
 
 ### 나는 그래도 꼭 지정을 하고 싶어 !
 
@@ -453,7 +453,7 @@ public <ㅁ> void someItem(ㅁ item) {}
   1. 지네릭 타입의 경계를 제거한다.
   2. 타입을 제거해도 타입이 일치하지 않으면 형변환을 추가
 
-![Untitled](%E1%84%8C%E1%85%A6%E1%84%82%E1%85%A6%E1%84%85%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3%20(Generic)%20bef44b6c45414b6cb2cb5451f7ba9f47/Untitled%201.png)
+![Untitled](https://private-user-images.githubusercontent.com/84346055/301349271-1cf09875-aa6f-4037-99db-8d6ef1f41f08.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NDkwMDQsIm5iZiI6MTcwNjc0ODcwNCwicGF0aCI6Ii84NDM0NjA1NS8zMDEzNDkyNzEtMWNmMDk4NzUtYWE2Zi00MDM3LTk5ZGItOGQ2ZWYxZjQxZjA4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjAxVDAwNTE0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMGQ0YzkxODcwNGQ1YWNiMGY3ODJkYmJmYWEyZWExMDAxMTU0Zjk1OGMyYzMxMDgwMDBhNzk5MzdiOGM2NjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.cv6ke1UOIBP4GYhGvD1jDw5BwQLJBIQfOlJIq7lbg3c)
 
 [☕ 자바 제네릭 타입 소거 컴파일 과정 알아보기](https://inpa.tistory.com/entry/JAVA-☕-제네릭-타입-소거-컴파일-과정-알아보기)
 
