@@ -33,7 +33,7 @@ public class GenericTest {
 
 **First**
 
-```java
+```
 // 1 데이터를 꺼낼 때
 
 Object cur = list.get(0);
@@ -47,7 +47,7 @@ if(cur instanceof Integer){
 
 **Second**
 
-```java
+```
 // 2 잘못 꺼낸다면
         
 Integer tmp = (Integer)list.get(1);
@@ -104,7 +104,7 @@ class Sword{}
   **그것은 아니다.**
 
 
-```java
+```
 System.out.println(user.getClass().getName());
 
 // chapter11.User
@@ -224,7 +224,7 @@ class Item{}
 
 **무공변성**
 
-- S가 T의 하위 타입이건 아니건 List<S>와 List<T>는 서로 다른 타입이다.
+- S가 T의 하위 타입이건 아니건 ```List<S>```와 ```List<T>```는 서로 다른 타입이다.
 
 > 예시를 보면 알겠지만 Java는 배열에 대해서는 공변성을 제공하지만 컬렉션(제네릭)에 대해서는 무공변성이다.
 >
@@ -245,9 +245,9 @@ class Item{}
 > 자바의 제네릭은 기본적으로 **무공변성**이다.  하지만 와일드 카드를 사용하여 제네릭에 가변성을 제공할 수 있고 이것을 **사용처 가변성**이라고 한다.
 >
 - 공변
-  - A가 B의 서브타입이라면 List<A>는 List<? extends B>의 서브타입이다.
+  - A가 B의 서브타입이라면 ```List<A>```는 ```List<? extends B>```의 서브타입이다.
 - 반공변성
-  - A가 B의 서브타입이라면 List<B>는 List<? super A>의 서브타입이다.
+  - A가 B의 서브타입이라면 ```List<B>```는 ```List<? super A>```의 서브타입이다.
 
 ### 효과
 
