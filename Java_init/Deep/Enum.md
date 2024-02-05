@@ -115,7 +115,7 @@ class Node{
     - 일종의 객체이기 때문에 **Heap 메모리에 저장**되며 각 상수들은 **별개의 메모리 주소**를 가진다.
 - enum은 Thread Safe인 싱글톤 객체이다.
 
-![Untitled](Enum%2044ee42a5259041ac841e66163fac6611/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/4aa84bea-7b22-40ec-ba8d-248350a8a199)
 
 ### Compile
 
