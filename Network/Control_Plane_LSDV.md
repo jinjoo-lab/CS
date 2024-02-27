@@ -184,19 +184,20 @@ $$
 
 ### 동작 방식
 
-![Untitled](Control%20Plane%20(%20LS%20,%20DV%20)%200fc463fc1aaf4c0fa3d18ca9e0ebd4c5/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/e9ef84b1-1ecb-4767-8bc4-18c2efec96d9)
 
 1. 초기 상태 : 직접 연결된 비용만 가지고 있음
 
-![Untitled](Control%20Plane%20(%20LS%20,%20DV%20)%200fc463fc1aaf4c0fa3d18ca9e0ebd4c5/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/9ed8dfb1-6d5a-4d3a-8915-235f16be12e7)
 
-1. 각 출발 노드는 이웃에 대해 최소 거리 갱신 → 상태를 이웃에게 전달
+2. 각 출발 노드는 이웃에 대해 최소 거리 갱신 → 상태를 이웃에게 전달
 
-![Untitled](Control%20Plane%20(%20LS%20,%20DV%20)%200fc463fc1aaf4c0fa3d18ca9e0ebd4c5/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/75cfe923-33d3-405d-8857-d006e993b993)
 
-1. 이웃은 전달 받은 정보를 바탕으로 거리 벡터 갱신
+3. 이웃은 전달 받은 정보를 바탕으로 거리 벡터 갱신
 
-![Untitled](Control%20Plane%20(%20LS%20,%20DV%20)%200fc463fc1aaf4c0fa3d18ca9e0ebd4c5/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/2c44a770-c8e4-4efd-b4c0-c7b57cb57c54)
+
 
 ### 문제점 (무한 계수 문제)
 
@@ -207,7 +208,7 @@ $$
 > **링크의 비용이 증가**하는 경우 문제 발생
 >
 
-![Untitled](Control%20Plane%20(%20LS%20,%20DV%20)%200fc463fc1aaf4c0fa3d18ca9e0ebd4c5/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/2685d1d2-0dde-4795-8281-581bd5955cd4)
 
 - 라우팅 루프는 잘못된 **동일한 정보가 라우터 간에 계속해서 순환**되는 현상
     - B의 경우  y ↔ x 간의 비용이 증가함에 따라 거리 벡터를 갱신하고 전송하는 과정에서 y와 z 사이의 라우팅 루프 발생
