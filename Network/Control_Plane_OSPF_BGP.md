@@ -83,7 +83,7 @@
     - **게이트웨이 라우터 : AS의 경계**에 있는 라우터  (다른 AS들에 있는 여러 개의 라우터와 직접 연결)
     - **내부 라우터 :** 자신의 **AS 내에 있는 호스트** 및 **라우터**와만 연결
 
-![Untitled](Control%20Plane%20(OSPF%20,%20BGP%20)%20d5cb153934354818914c09d585893a0c/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/c1652b30-d3ba-4608-b398-05a354d23658)
 
 - 추상적 과정
 
@@ -117,7 +117,7 @@
 >
 - 최소한의 비용으로 패킷을 자신의 AS 밖으로 내보내는 것 (자신의 AS 내부 비용을 줄이는 방식)
 
-![Untitled](Control%20Plane%20(OSPF%20,%20BGP%20)%20d5cb153934354818914c09d585893a0c/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/3b6f3853-f60e-4dc8-af12-4a07da0d5976)
 
 ### 전체적 과정
 
