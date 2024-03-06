@@ -5,7 +5,7 @@
 > 데이터 평면 스위치 - SDN 컨트롤러 - 네트워크 제어 애플리케이션
 >
 
-![Untitled](Control%20Plane%20(%20SDN%20)%20fff7fe080f894f72a788942a8c05ce90/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/9f42c4b1-08b6-4807-8cea-8d5ba2d30460)
 
 - 포워딩
     - 네트워크 계층의 출발지 / 목적지 주소
@@ -44,7 +44,7 @@
     - 노스바운드 인터페이스를 통해 네트워크 제어 애플리케이션과 상호작용
     - 플로우 테이블에 대한 읽기 + 쓰기 작업 전달
 
-![Untitled](Control%20Plane%20(%20SDN%20)%20fff7fe080f894f72a788942a8c05ce90/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/9f029e35-c7ff-407d-826f-6c0422098685)
 
 ### OpenFlow 프로토콜
 
