@@ -61,7 +61,7 @@
 > Redis의 클라이언트 처리를 하는 **싱글 스레드**에서는 **Event Loop 방식**으로 처리
 >
 
-![Untitled](Redis%20Init%20ada9d50068a44b11b4f334cc2182e6e7/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/19a38b05-9011-4463-8580-9a4e550f00fc)
 
 > 하나의 통신 채널을 통해 대량의 데이터를 전송하는 기술
 >
