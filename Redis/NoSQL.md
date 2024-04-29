@@ -10,7 +10,7 @@
 >
 - 모든 시스템은 하나로 연결되어 관리된다. (단일 지점)
 
-![Untitled](NoSQL%205467901549314002b6c3e0bcc9085069/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/89635416-7320-4b07-9ab5-2ded6101db18)
 
 ### 장점
 
@@ -33,7 +33,7 @@
 - 기능별로 **작게 나눠진 서비스**가 **독립적으로 동작**하는 서비스
 - 업데이트, 테스트 , 배포, 확장은 각 서비스별로 독립적으로 수행될 수 있다.
 
-![Untitled](NoSQL%205467901549314002b6c3e0bcc9085069/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/d523ad55-e820-4a44-9f74-eafff08be812)
 
 ### 장점
 
