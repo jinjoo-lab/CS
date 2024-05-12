@@ -27,13 +27,13 @@
 > Java 언어는 OS에 종속적이지 않는 실행이 가능하다. 하지만 결국 OS단과 통신하는 중간 매개체로서 JVM이 존재한다. 결국 JVM은 OS에 종속적이라는 것이다.
 >
 
-![Untitled](JVM%20(%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f2d786eed23244e69b442adc290e10b0/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/df89a082-96b9-44a8-9ec0-fa416c824477)
 
 - 위의 이미지를 보면 알 수 있듯 각 OS 별로 별도의 JVM을 제공한다.
 
 ## Java 실행 과정
 
-![Untitled](JVM%20(%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f2d786eed23244e69b442adc290e10b0/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/6aaa54a3-c268-481f-af1d-9564af02fba1)
 
 ### *.java
 
@@ -90,7 +90,7 @@
 > 클래스 로더에서 Java class 파일의 정보를 Method 영역으로 Load하는데 있어 3가지 단계를 거치게 된다. (로딩 → 링크 → 초기화)
 >
 
-![Untitled](JVM%20(%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f2d786eed23244e69b442adc290e10b0/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/2588597d-19ee-458e-bd55-e40a34247b34)
 
 ### Loading
 
@@ -127,7 +127,7 @@
 > class 로딩 과정에 있어 **자신의 부모 class loader에게 로딩을 위임**하는 방식
 >
 
-![Untitled](JVM%20(%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f2d786eed23244e69b442adc290e10b0/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/1f9b82c9-b7ad-4802-b6d3-265211fbb192)
 
 - Class Loader는 크게 **Bootstrap - Extension - System** 3가지가 있다.
 
