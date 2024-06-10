@@ -107,7 +107,7 @@
 >
 - Default로 제한된 크기를 가지고 있다.
 
-![Untitled](JVM%20(%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f27c866f9bae49c4b7a6b5b8bee748f1/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/9aedc935-ff42-47ee-b7b4-cf3b1a64145c)
 
 > 즉 JVM의 관리 영역에 포함되었기 때문에 크기에 대한 고려가 필요하였다. 그래서 **메서드 영역**을 **Native Memory 즉 OS에 의해 관리되는 영역**으로 구현할 계획을 세운다.
 >
@@ -122,4 +122,4 @@
     - 컴파일 시 생성된 **리터럴**과 **심벌 참조**가 저장
     - Runtime 시 동적으로 RCP에 추가될 수 있다.
 
-![Untitled](JVM%20(%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B7)%20f27c866f9bae49c4b7a6b5b8bee748f1/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/a40edb5c-e7ae-478b-b506-2a45b82ec61d)
