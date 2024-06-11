@@ -83,7 +83,7 @@
     - 반대로 해당 인스턴스에 대한 참조가 끊길 때마다 1씩 카운터의 값을 감소시킨다.
 - **카운터의 값이 0이 된 객체를 죽은 객체**라 판단하고 GC의 대상으로 지정한다.
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/06fffb38-9be8-4246-a102-6b7ab4fb89a5)
 
 ### 장점
 
@@ -129,7 +129,7 @@ class GcPoint {
 - **GC 루트**라고 하는 **루트 객체들을 시작 노드 집합**으로 사용
     - GC 루트로부터 출발하여 참조하는 다른 객체들로 탐색 (경로를 참조 체인이라 부른다)
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/eecce6cc-47cf-4863-bf31-50ae49f5f313)
 
 **죽은 객체**
 
@@ -212,7 +212,7 @@ ref = weakRef.get();
 
 ### Young & Old
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/0be02e1a-0fb6-43cf-b396-f2fbcd6cf1af)
 
 - **Young Generation**
     - 새로운 객체들이 생성되는 곳 → 수명이 짧은 객체들은 Young Generation에서 할당이 해제된다.
@@ -231,7 +231,7 @@ ref = weakRef.get();
 > Heap 영역의 효율적인 사용을 위해 **Young 영역**을 **Eden, Survivor 0, Survivor 1** 3가지 영역으로 또 나눈다. (이것을 아펠 스타일 컬렉션 방식이라 한다.)
 >
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/ca5e5c33-85de-46cd-bf8f-7aafacb69fbb)
 
 ### Eden
 
@@ -265,7 +265,7 @@ ref = weakRef.get();
 
 1. 처음 생성된 객체들은 **Eden 영역에 배치**된다.
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/ff40f1b2-42a7-430b-b909-d352b22034e9)
 
 1. Eden 영역이 차게 된다면 **Minor GC**가 실행된다.
     - Mark 과정을 통해 회수될 인스턴스를 모두 표시 ( 판단은 **도달 가능성 판단 알고리즘** )
@@ -273,9 +273,9 @@ ref = weakRef.get();
         - 살아남은 **객체들의 age값을 1씩 증가**
     - 도달 불가능한 객체들은 지워버린다. (기본적으로 mark - copy다)
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%205.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/4fff3794-9e05-4d72-b14a-2189fc04ed90)
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%206.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/a7287751-b247-425f-ab97-0a3da0abf042)
 
 ## Major GC
 
@@ -288,11 +288,11 @@ ref = weakRef.get();
 
 1. Survivor 영역에서 **age가 특정 값에 도달한 객체**들을 Old 영역으로 이동 : **Promotion**
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%207.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/c0b86933-869a-4d49-a906-9a054d650ee2)
 
 1. Old Generation이 가득차게 되면 **Major GC**가 발생
 
-![Untitled](GC%20(1)%2037fff5ee187d4d8c9e3ff2bd93921c8d/Untitled%208.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/be83197b-23a1-4f1c-be1e-ca7d35e9f9b1)
 
 - Major GC는 기본적으로 Mark-Sweep 방식을 통해 수행된다. 즉 도달 가능성이 끊긴 객체들을 지우는 것이다.
 
