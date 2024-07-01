@@ -61,7 +61,7 @@
 - **메모리 파편화가 심하다.**
     - GC를 통해 청소되는 영역에 불연속적인 메모리 파편이 발생한다. (이는 나중에 **큰 객체를 생성할 때 충분한 크기의 연속 메모리**를 찾는데 어려울 수 있다.)
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/d6960295-d532-4ade-9f5f-e8abe5188304)
 
 ## Mark - Copy 알고리즘
 
@@ -100,7 +100,7 @@
     - 핫스팟 가상 머신에서 비율은 8 : 1 : 1이다.
 - 이러한 아펠 스타일 컬렉션 방식을 적용한 것이 우리가 흔히 아는 Minor GC인 것이다.
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/f221b4b3-398c-477e-82ac-0cea9934f4f7)
 
 ## Mark - Sweep - Compact 알고리즘
 
@@ -116,7 +116,7 @@
 > 즉 메모리 이동이 일어난다는 것이다. 이를 통해 메모리 파편화를 해결할 수 있다. 하지만 이는 동시에 이동된 객체들의 기존 참조를 모두 갱신해야 하고 이는 **Stop - the - World의 시간이 증가되는 이유**이다.
 >
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/ab11c4da-3ce6-4536-b02c-f7f6abf61b2a)
 
 ## 실제 GC는 이렇게 간단하지 않다 !
 
@@ -230,7 +230,7 @@ CARD_TABLE[this_address >> 9] = 1;
 - New 영역의 GC는 Mark - Copy 알고리즘으로 동작
 - Old 영역의 GC는 Mark - Compact 알고리즘으로 동작
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/d173e802-33d5-49ad-b672-cced14ca3ad2)
 
 ### 장점
 
@@ -245,7 +245,7 @@ CARD_TABLE[this_address >> 9] = 1;
 > New 영역에 대해 ‘마크 - 카피’ 알고리즘에 기초하며 멀티 스레드를 통해 GC를 병렬적으로 회수 ( Old 영역의 경우 mark - compact 사용
 >
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/572b1e70-9073-4efd-8338-4ec71b6a2265)
 
 ### 특징
 
@@ -271,7 +271,7 @@ CARD_TABLE[this_address >> 9] = 1;
 >
 - GC 작업을 어플리케이션과 동시에 실행 가능한 획기적 방식이었지만 모든 것은 상대적이다. → G1 등장으로 Deprecated
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%205.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/e51167f0-1212-4db5-9b9e-725bdc9e8c03)
 
 ### 동작 과정
 
@@ -304,6 +304,6 @@ CARD_TABLE[this_address >> 9] = 1;
 
 ## G1(Garbage First) Collector - Java 9 Default
 
-![Untitled](GC%20(2)%2069d337fd040147028f803a3a4be9871c/Untitled%206.png)
+![image](https://github.com/jinjoo-lab/CS/assets/84346055/cd7d697e-fe46-456c-a608-86f5fcf1af99)
 
 # ZGC
